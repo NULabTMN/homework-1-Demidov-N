@@ -1,3 +1,17 @@
+# Solution Explanation
+
+For the simplycity purposes and not to get lost in the links, I createtd 3 files for each of the 3 topics with links in the following format
+```
+w: {website}
+rel: {relationsip}
+text: {text if it is exist and rel = 0}
+```
+
+Then I created a simple function `parser.py` that first reads over all of the topics, parses my custom format, fixes the texts to be correctly read.
+
+`tester.py` checks how many ids I have to make sure that it was processed correctly, for 3 topics and 15 articles should be 48 (45 of articles + 3 of the topic ids)
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/C9zhxHID)
 # CS6200 / IS4200: Relevance Judgments
 
